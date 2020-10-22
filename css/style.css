@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-h1, h3, h4, a {
+h1, h2, h3, h4, a, footer {
     font-family: 'Commissioner', sans-serif;
     color: black;
 }
@@ -50,12 +50,21 @@ h1, h3, h4, a {
     margin-top: 100px;
 }
 
+.page-title {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 #products-content {
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 100px;
+    margin: 25px;   
 }
 
 .products-tile {
@@ -63,6 +72,18 @@ h1, h3, h4, a {
     display: flex;
     flex-direction: column;
     margin: 20px;
+    animation: appear 0.9s ease-in-out;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        margin-right: 500px;
+    }
+    to {
+        opacity: 100%;
+        margin-right: 0;
+    }
 }
 
 .product-image {
