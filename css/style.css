@@ -72,19 +72,64 @@ h1, h2, h3, h4, a, footer {
     display: flex;
     flex-direction: column;
     margin: 20px;
-    animation: appear 0.9s ease-in-out;
+    /* animation: appear 0.9s ease-in-out; */
 }
 
-@keyframes appear {
+#choc-cake {
+    animation: choc 0.5s ease-in-out;
+}
+
+#lemon-cake {
+    animation: lemon 0.5s ease-in-out 0.1s;
+}
+
+#vanilla-cupcakes {
+    animation: vanilla 0.5s ease-in-out 0.2s;
+}
+
+@keyframes choc {
     from {
         opacity: 0;
-        margin-right: 500px;
+        transform: translateX(1000px);
     }
     to {
         opacity: 100%;
-        margin-right: 0;
+        transform: translateX(0);
     }
 }
+
+@keyframes lemon {
+    from {
+        opacity: 0;
+        transform: translateX(800px);
+    }
+    to {
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+
+@keyframes vanilla {
+    from {
+        opacity: 0;
+        transform: translateX(700px);
+    }
+    to {
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+
+/* @keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateX(700px);
+    }
+    to {
+        opacity: 100%;
+        transform: translateX(0);
+    }
+} */
 
 .product-image {
     border-radius: 15px;
