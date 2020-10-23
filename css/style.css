@@ -16,6 +16,7 @@ h1, h2, h3, h4, a, footer {
     padding: 0 20px;
 }
 
+/* On screens that at 700px wide or less... */
 @media screen and (max-width: 700px) {
     .nav-bar {
         flex-direction: column-reverse;
@@ -167,4 +168,16 @@ h1, h2, h3, h4, a, footer {
     border-radius: 10px;
     width: 400px;
 }
+
+#contact-page {
+    text-align: center;
+}
+
+#contact-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
 
