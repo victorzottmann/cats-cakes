@@ -8,6 +8,14 @@ h1, h2, h3, h4, a, footer, label, input, textarea {
     color: black;
 }
 
+.nav-bar {
+    align-items: center;
+    background: lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
 /* On screens that at 700px wide or less... */
 @media screen and (max-width: 700px) {
     .nav-bar {
@@ -19,36 +27,15 @@ h1, h2, h3, h4, a, footer, label, input, textarea {
     }
 }
 
-.nav-bar {
-    align-items: center;
-    background: lightblue;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-}
-
-.nav-heading {
-    padding-left: 10px;
-}
-
 .nav-links {
     font-size: 1.2em; 
     font-weight: 600;
     text-decoration: none;
-    padding: 0 20px;
-    
+    padding: 20px;
 }
 
 .nav-links:hover {
-    border-bottom: 2px solid black;
-    max-width: 75%;
-}
-
-#front-page-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
+    color: #c927cf;
 }
 
 #front-page-image {
@@ -57,13 +44,20 @@ h1, h2, h3, h4, a, footer, label, input, textarea {
     width: 40%;
 }
 
+#front-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
 .page-title {
     align-items: center;
     display: flex;
     flex-direction: row;
     font-size: 1.2em;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 #products-content {
@@ -175,7 +169,7 @@ h1, h2, h3, h4, a, footer, label, input, textarea {
 #contact-form {
     width: 28%; 
     padding: 14px;
-    margin-right: 24px;
+    margin-right: 22px;
     background-color: #f2f2f2;
     border-radius: 5px;
     display: flex;

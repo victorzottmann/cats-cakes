@@ -25,24 +25,24 @@
         <h2>Contact Us</h2>
     </div>
 
-    <!-- <div class="contact-content">
-        <img id="contact-image" src="../images/contact3.jpeg" alt="Contact">
-    </div> -->
-
-    <div id="contact-page">
-        <p>Please fill out the form and we'll get in touch with you.</p>
-        <form id="contact-form">
-            <label>Name</label>
-            <input type="text">
-            <label>Phone Number</label>
-            <input type="text">
-            <label>Email</label>
-            <input type="text">
-            <label>Message</label>
-            <textarea></textarea>
-            <input type="submit" value="Submit">
-        </form>
+    <div id="contact-container">
+        <img id="contact-image" src="../images/contact3.jpeg" alt="Contact image">
+        <div id="contact-form">
+            <form>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+    
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </div>
+
 
 </body>
 
