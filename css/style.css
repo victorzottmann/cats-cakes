@@ -19,16 +19,16 @@ h1, h2, h3, h4, a, footer, label, input, textarea {
     }
 }
 
+.nav-heading {
+    padding-left: 10px;
+}
+
 .nav-bar {
     align-items: center;
     background: lightblue;
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
-}
-
-.nav-heading {
-    padding-left: 10px;
 }
 
 .nav-links {
@@ -40,6 +40,11 @@ h1, h2, h3, h4, a, footer, label, input, textarea {
 }
 
 .nav-links:hover {
+    border-bottom: 2px solid black;
+    max-width: 75%;
+}
+
+#active {
     border-bottom: 2px solid black;
     max-width: 75%;
 }
