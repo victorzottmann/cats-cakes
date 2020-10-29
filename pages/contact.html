@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat's Cake Shop</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css" integrity="sha384-qyHncVhjWNkvDly7xQRgql0ZXV0yhZLmvfci95lYw34UaLBK91gQ3QdYHvMvgLgt">
     <link rel="icon" href="../images/vanilla-cupcakes.jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="nav-bar">
+    <header class="nav-bar">
         <h1 class="nav-heading">🎂 Cat's Cakes</h1>
         <nav>
             <a class="nav-links" href="../index.html">Home</a> |
@@ -19,34 +19,33 @@
             <a class="nav-links" href="company.html">Company</a> |
             <a class="nav-links" id="active" href="contact.html">Contact</a>
         </nav>
-    </div>
+    </header>
 
-    <div class="page-title">
-        <h2>Contact Us</h2>
-    </div>
-
-    <div id="contact-container">
-        <img id="contact-image" src="../images/contact3.jpeg" alt="Contact image">
-        <div id="contact-form">
-            <form>
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name...">
-    
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-
-                <label for="email">Email</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your email address...">
-    
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something..." style="height:110px"></textarea>
-    
-                <input type="submit" value="Submit">
-            </form>
+    <main>
+        <div class="page-title">
+            <h2>Contact Us</h2>
         </div>
-    </div>
-
-
+        <div id="contact-container">
+            <img id="contact-image" src="../images/contact3.jpeg" alt="Contact image">
+            <div id="contact-form">
+                <form>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name...">
+        
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+    
+                    <label for="email">Email</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your email address...">
+        
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something..." style="height:110px"></textarea>
+        
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
